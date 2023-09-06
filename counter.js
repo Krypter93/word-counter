@@ -18,6 +18,13 @@ btn.addEventListener("click", ()=>{
         }
     }
 
-    alert(count + " palabras");
+    if(array==false){
+        alert("Empty input");
+    }else if(count == 1){
+        alert(count + " palabra");
+    }else{
+        alert(count + " palabras");
+    }
+    
 })
 
